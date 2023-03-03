@@ -1,0 +1,25 @@
+{
+  "name": "longclaw",
+  "version": "1.0.0",
+  "description": "A repository I made while learning Tailwind CSS, JavaScript, React JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/style.css -o ./sr /outputstyle.css",
+    "watch": "tailwindcss -i ./src/style.css -o ./sr /outputstyle.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OMISENKER/Longclaw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OMISENKER/Longclaw/issues"
+  },
+  "homepage": "https://github.com/OMISENKER/Longclaw#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
